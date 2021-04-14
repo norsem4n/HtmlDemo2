@@ -1,0 +1,133 @@
+﻿/*Created By:   Christopher Karnas
+  Last Updated: 2.2.21
+*/
+
+@charset "utf-8";
+
+/* Structural Styles */
+
+html
+{
+    background-color:rgb(173,189,227);
+}
+
+body
+{
+    background-color:rgb(227,210,173);
+    font-family:'Century Gothic', sans-serif;
+    line-height: 1.4em;
+}
+
+footer
+{
+    text-align:center;
+    background-color:rgb(208,184,109);
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+footer > address
+{
+    font-style:normal;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:0.9em;
+    text-align:center;
+}
+/* Heading Styles */
+
+h1, h2
+{
+    font-weight:normal;
+}
+
+/* Navigation Styles */
+
+nav > ul
+{
+    line-height:2.0em;
+    font-size:0.9em;
+    list-style-type:none;
+}
+
+nav a
+{
+    text-decoration: none;
+    color:rgb(43,59,125);
+}
+
+nav.vertical a:hover
+{
+    color: rgb(212,35,35);
+    text-decoration:underline;
+}
+
+/* Article Styles */
+
+article h1
+{
+    font-size:2.2em;
+    letter-spacing:0.2em;
+}
+
+article p
+{
+    font-size:1.1em;
+}
+
+article > p:first-of-type::first-line
+{
+    font-variant: small-caps;
+    font-size:1.2em;
+}
+
+/* Aside Styles */
+
+h1
+{
+    font-size:1.2em;
+}
+
+h2
+{
+    font-size:0.9em;
+}
+
+p
+{
+    font-size:0.8em;
+}
+
+h2.odd
+{
+    color:rgb(79,91,40);
+}
+
+h2.even
+{
+    color:rgb(81,95,175);
+}
+
+p.odd
+{
+    color:rgb(79,91,40);
+}
+
+p.even
+{
+    color:rgb(81,95,175);
+}
+
+/* Blockquote Styles */
+
+article > blockquote
+{
+    background-color:rgb(173,189,227);
+    color:rgb(255,255,255);
+    opacity:0.65;
+    padding-top:2.5px;
+    padding-bottom:2.5px;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
